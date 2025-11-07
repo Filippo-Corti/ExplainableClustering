@@ -23,3 +23,8 @@ All matrices share the same genes (rows) but different sets of features (columns
    - Check out mofax for some visualizations on MOFA
 
 
+https://geneontology.org/docs/ontology-documentation/
+
+https://github.com/bioFAM/MOFA2
+
+https://github.com/bioFAM/mofax/blob/master/notebooks/getting_started_pbmc10k.ipynb
