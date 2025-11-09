@@ -27,4 +27,9 @@ https://geneontology.org/docs/ontology-documentation/
 
 https://github.com/bioFAM/MOFA2
 
+#### MOFA2 tutorial to fit the model:
+https://github.com/bioFAM/mofapy2/blob/master/mofapy2/notebooks/getting_started_python.ipynb
+
+#### Visualization notebook:
 https://github.com/bioFAM/mofax/blob/master/notebooks/getting_started_pbmc10k.ipynb
+
