@@ -24,11 +24,13 @@ All matrices share the same genes (rows) but different sets of features (columns
 
 ### TODO:
 
-1. Run MOFA training again, preserving labels (for analysis)
+1. Run MOFA training again, preserving labels (for analysis) DONE
 2. Run cluster 2-100 on the MOFA factors matrix. Save as csv.
-    - Real valued-data so KMeans?
+    - Real valued-data so KMeans? DONE
 3. Run clusters 2-100 on each of the 4 matrices. Save as csv.
     - Binary data so KModes?
+    - Issue: KModes is very slow on large datasets. 
+    - Use MiniBatchKMeans as an approximation? 
 
 
 https://geneontology.org/docs/ontology-documentation/
