@@ -1,4 +1,4 @@
-# SciViz Assigment #2
+# Data Integration with MOFA
 
 ### Dataset:
 4 Matrices which share the same rows (the genes). 
