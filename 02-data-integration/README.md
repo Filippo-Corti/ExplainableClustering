@@ -22,6 +22,14 @@ All matrices share the same genes (rows) but different sets of features (columns
    - Clustering, if we want
    - Check out mofax for some visualizations on MOFA
 
+### TODO:
+
+1. Run MOFA training again, preserving labels (for analysis)
+2. Run cluster 2-100 on the MOFA factors matrix. Save as csv.
+    - Real valued-data so KMeans?
+3. Run clusters 2-100 on each of the 4 matrices. Save as csv.
+    - Binary data so KModes?
+
 
 https://geneontology.org/docs/ontology-documentation/
 
@@ -32,4 +40,5 @@ https://github.com/bioFAM/mofapy2/blob/master/mofapy2/notebooks/getting_started_
 
 #### Visualization notebook:
 https://github.com/bioFAM/mofax/blob/master/notebooks/getting_started_pbmc10k.ipynb
+
 
