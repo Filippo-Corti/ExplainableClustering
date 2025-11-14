@@ -30,7 +30,9 @@ All matrices share the same genes (rows) but different sets of features (columns
 3. Run clusters 2-100 on each of the 4 matrices. Save as csv.
     - Binary data so KModes?
     - Issue: KModes is very slow on large datasets. 
-    - Use MiniBatchKMeans as an approximation? 
+    - Use MiniBatchKMeans as an approximation? Yes, it is appropriate because:
+      - It is the same algorithm used for MOFA clustering, making for a fair comopairson
+      - It has been proven that it works reasonably well on binary data
 
 
 https://geneontology.org/docs/ontology-documentation/
